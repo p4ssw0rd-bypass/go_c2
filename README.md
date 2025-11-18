@@ -358,6 +358,8 @@ EXPLAIN SELECT * FROM beacons WHERE status = 'active';
 
 感谢所有为这个项目做出贡献的开发者和用户！
 
+感谢：[GateSentinel](https://github.com/kyxiaxiang/GateSentinel)
+
 ---
 
 <div align="center">
