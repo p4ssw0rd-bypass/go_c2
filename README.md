@@ -7,7 +7,9 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
 
-**一个基于Go语言开发的现代化命令与控制中心，提供Beacon管理、文件操作、任务调度等核心功能**
+**一个基于Go语言开发的命令与控制中心，提供Beacon管理、文件操作、命令执行等核心功能**
+
+**此项目更适于内部钓鱼演练**
 
 [🚀 快速开始](#-快速开始) • [📖 文档](#-功能特性) • [🛠️ 部署](#-部署指南) • [🔧 开发](#-开发指南)
 
