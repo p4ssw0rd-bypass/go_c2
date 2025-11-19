@@ -224,6 +224,10 @@ sudo systemctl start goc2
 
 ## 📖 功能特性详解
 
+<img width="2494" height="1323" alt="image" src="https://github.com/user-attachments/assets/2233b444-021b-441c-9e61-cc84c50f1dbe" />
+### 更新
+2025年11月19日 增加 bof、inline、进程注入等武器中心功能
+
 ### 🔐 Beacon管理
 
 - **连接监控**: 实时显示所有活跃Beacon
