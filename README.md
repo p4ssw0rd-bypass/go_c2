@@ -225,8 +225,6 @@ sudo systemctl start goc2
 ## 📖 功能特性详解
 
 <img width="2494" height="1323" alt="image" src="https://github.com/user-attachments/assets/2233b444-021b-441c-9e61-cc84c50f1dbe" />
-### 更新
-2025年11月19日 增加 bof、inline、进程注入等武器中心功能
 
 ### 🔐 Beacon管理
 
@@ -348,6 +346,8 @@ EXPLAIN SELECT * FROM beacons WHERE status = 'active';
 }
 ```
 
+
+
 ## 🤝 贡献指南
 
 我们欢迎所有形式的贡献！
@@ -359,6 +359,11 @@ EXPLAIN SELECT * FROM beacons WHERE status = 'active';
 3. **改进文档**: 完善README或添加使用说明
 4. **分享经验**: 在讨论区分享使用心得
 
+## 更新记录
+
+2025年11月19日 增加 bof、inline、进程注入等武器中心功能。
+
+2025年11月25日 修正 bof 参数，修正进程注入方式，修正进程获取前端。
 
 ## 🙏 致谢
 
