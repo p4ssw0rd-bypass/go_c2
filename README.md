@@ -363,7 +363,7 @@ EXPLAIN SELECT * FROM beacons WHERE status = 'active';
 
 2025年11月19日 增加 bof、inline、进程注入等武器中心功能。
 
-2025年11月25日 修正 bof 参数，修正进程注入方式，修正进程获取前端。
+2025年11月25日 修正 bof 参数，修正进程注入方式，增加beacon SEH/VEH方便调试，修正进程获取前端。
 
 ## 🙏 致谢
 
